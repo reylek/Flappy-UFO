@@ -21,7 +21,7 @@ const float minHoleSize = 110.f;
 const float decreaseHoleSize = 5.f;
 status statusGame = status::InMenu;
 const Vector2u screenSize = Vector2u(640u, 480u);
-RenderWindow window(VideoMode(screenSize.x, screenSize.y), "Floppy UFO");
+RenderWindow window(VideoMode(screenSize.x, screenSize.y), "Flappy UFO");
 std::unique_ptr<Menu>menu;
 std::unique_ptr<GameOverMenu>gameOverMenu;
 std::unique_ptr<UFO>ufo;
